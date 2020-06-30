@@ -64,15 +64,15 @@ class TasksScreen extends StatelessWidget {
                 // doesn’t change when the model changes, you can construct it
                 // once and get it through the builder.
                 //this one will rebuild Text widget, which may not necessary
-                Consumer<TaskData>(
-                  builder: (context, taskData, child) => Text(
-                    '${taskData.taskList.length} tasks with Consumer',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 18,
-                    ),
-                  ),
-                ),
+//                Consumer<TaskData>(
+//                  builder: (context, taskData, child) => Text(
+//                    '${taskData.taskList.length} tasks with Consumer',
+//                    style: TextStyle(
+//                      color: Colors.white,
+//                      fontSize: 18,
+//                    ),
+//                  ),
+//                ),
 
                 //same as above but shorter, so what are the difference?
                 //see this:
